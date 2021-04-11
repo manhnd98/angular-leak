@@ -1,0 +1,12 @@
+<div>
+
+  <app-component-1 *ngIf="comp === 'component1'"></app-component-1>
+
+  <app-component-2 *ngIf="comp === 'component2'"></app-component-2>
+
+
+  <button (click)="changeComponent('component1')"> Change to component 1</button>
+
+  <button (click)="changeComponent('component2')"> Change to component 2</button>
+
+</div>
